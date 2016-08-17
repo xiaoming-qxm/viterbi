@@ -1,5 +1,6 @@
 # Viterbi
- C++ implement for Viterbi algorithm and Hidden Markov Model
+C++ implement for Viterbi algorithm and Hidden Markov Model
+ ----------------------------------------------------------
    
      To run the demo in linux(unix), type the following command:
      (1) $ make
