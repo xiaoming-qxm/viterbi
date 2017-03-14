@@ -1,12 +1,10 @@
-// viterbi_demo.cpp
-
 // Copyright 2016-2016 University of Electronic Science and Technology of China
 //                     (author : Xiaoming Qin)
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file expect in compliance with the License.
 
 #include <iostream>
-#include "HMM.h"
+#include "hmm.h"
 #include "util.h"
 #include "simple_debug.h"
 #include "viterbi_decoder.h"
