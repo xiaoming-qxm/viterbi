@@ -5,7 +5,7 @@
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file expect in compliance with the License.
 
-#include "HMM.h"
+#include "hmm.h"
 
 void HMM::create_prob_array(const string trans_file_name, const string emiss_file_name, const string pi_file_name)
 {
