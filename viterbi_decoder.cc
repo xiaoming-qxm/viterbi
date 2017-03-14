@@ -1,5 +1,3 @@
-// viterbi_decoder.cpp
-
 // Copyright 2016-2016 University of Electronic Science and Technology of China
 //                     (author : Xiaoming Qin)
 // Licensed under the Apache License, Version 2.0 (the "License");
