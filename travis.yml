@@ -1,0 +1,10 @@
+language: cpp
+compiler:
+  - gcc
+
+env:
+  - CPP11=0
+  - CPP11=1
+
+script:
+  - make
