@@ -14,14 +14,14 @@ TARGET = viterbi_demo
 
 all: $(TARGET)
 
-$(TARGET): viterbi_demo.o HMM.o simple_debug.o viterbi_decoder.o util.o
-	$(CC) $(CXXFLAGS) -o $(TARGET) viterbi_demo.o HMM.o simple_debug.o viterbi_decoder.o util.o
+$(TARGET): viterbi_demo.o hmm.o simple_debug.o viterbi_decoder.o util.o
+	$(CC) $(CXXFLAGS) -o $(TARGET) viterbi_demo.o hmm.o simple_debug.o viterbi_decoder.o util.o
 
-viterbi_demo.o: viterbi_demo.cpp HMM.h util.h simple_debug.h viterbi_decoder.h
+viterbi_demo.o: viterbi_demo.cc hmm.h util.h simple_debug.h viterbi_decoder.h
 	$(CC) $(CXXFLAGS) -c viterbi_demo.cc
 
-HMM.o: HMM.cpp HMM.h
-	$(CC) $(CXXFLAGS) -c HMM.cc
+hmm.o: hmm.cpp hmm.h
+	$(CC) $(CXXFLAGS) -c hmm.cc
 
 simple_debug.o: simple_debug.cpp simple_debug.h
 	$(CC) $(CXXFLAGS) -c simple_debug.cc
