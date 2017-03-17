@@ -1,6 +1,7 @@
-# Viterbi
-C++ implement for Viterbi algorithm and Hidden Markov Model
+# Viterbi  
+[![Build Status](https://travis-ci.org/daoliker/viterbi.svg?branch=master)](https://travis-ci.org/daoliker/viterbi)  
  ----------------------------------------------------------
+## C++ implement for Viterbi algorithm and Hidden Markov Model
    
      To run the demo in linux(unix), type the following command:
      (1) $ make
