@@ -11,11 +11,11 @@ TARGET = viterbi_demo
 
 all: $(TARGET)
 
-$(TARGET): viterbi_demo.o hmm.o simple_debug.o viterbi_decoder.o util.o
-	$(CXX) $(CXXFLAGS) -o $(TARGET) viterbi_demo.o hmm.o simple_debug.o viterbi_decoder.o util.o
+$(TARGET): demo.o hmm.o simple_debug.o viterbi_decoder.o util.o
+	$(CXX) $(CXXFLAGS) -o $(TARGET) demo.o hmm.o simple_debug.o viterbi_decoder.o util.o
 
-viterbi_demo.o: viterbi_demo.cc hmm.h util.h simple_debug.h viterbi_decoder.h
-	$(CXX) $(CXXFLAGS) -c viterbi_demo.cc
+demo.o: demo.cc hmm.h util.h simple_debug.h viterbi_decoder.h
+	$(CXX) $(CXXFLAGS) -c demo.cc
 
 hmm.o: hmm.cc hmm.h
 	$(CXX) $(CXXFLAGS) -c hmm.cc
