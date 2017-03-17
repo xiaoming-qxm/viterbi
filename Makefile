@@ -17,16 +17,16 @@ $(TARGET): viterbi_demo.o hmm.o simple_debug.o viterbi_decoder.o util.o
 viterbi_demo.o: viterbi_demo.cc hmm.h util.h simple_debug.h viterbi_decoder.h
 	$(CXX) $(CXXFLAGS) -c viterbi_demo.cc
 
-hmm.o: hmm.cpp hmm.h
+hmm.o: hmm.cc hmm.h
 	$(CXX) $(CXXFLAGS) -c hmm.cc
 
-simple_debug.o: simple_debug.cpp simple_debug.h
+simple_debug.o: simple_debug.cc simple_debug.h
 	$(CXX) $(CXXFLAGS) -c simple_debug.cc
 
-viterbi_decoder.o: viterbi_decoder.cpp viterbi_decoder.h
+viterbi_decoder.o: viterbi_decoder.cc viterbi_decoder.h
 	$(CXX) $(CXXFLAGS) -c viterbi_decoder.cc
 
-util.o: util.cpp util.h
+util.o: util.cc util.h
 	$(CXX) $(CXXFLAGS) -c util.cc
 
 # To start over from scratch, type 'make clean'.
