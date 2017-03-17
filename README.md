@@ -1,5 +1,6 @@
 # Viterbi  
-[![Build Status](https://travis-ci.org/daoliker/viterbi.svg?branch=master)](https://travis-ci.org/daoliker/viterbi)  
+[![Build Status](https://travis-ci.org/daoliker/viterbi.svg?branch=master)](https://travis-ci.org/daoliker/viterbi)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
  ----------------------------------------------------------
 ## C++ implement for Viterbi algorithm and Hidden Markov Model
    
